@@ -90,3 +90,5 @@ def add(a,b):
     return a+b
 
 print(add(3,4))
+
+#파이썬은 인간다운 코드이다.
