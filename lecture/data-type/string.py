@@ -174,3 +174,13 @@ print(a.replace("Life is", "You are"))
 #문자열 나누기 split
 a= "Life is too short"
 print(a.split())
+
+b= "a:b:c:d"
+print(b.split(":"))
+
+b= "a:b-c-d"
+print(b.split(":"))
+
+b= "a:b-c-d"
+print(b.split("-"))
+
