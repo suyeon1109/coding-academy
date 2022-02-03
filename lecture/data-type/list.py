@@ -138,3 +138,17 @@ b = 55
 c = 75
 
 print((a+b+c)/3)
+
+#4
+#["Life","is", "too", "short"] 리스트를 life is too short 문자열 string로 만들어서 출력하기.
+
+a = ["Life","is", "too", "short"]
+# a = str(a)  #["Life","is", "too", "short"]
+# print(a)
+# a = a.replace("''","")
+# a = a.replace(","," ")
+# a = a.replace("[","")
+# a = a.replace("]"","")
+
+a = ["Life","is", "too", "short"]
+print(a[0], a[1], a[2], a[3])
