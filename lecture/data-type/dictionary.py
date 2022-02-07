@@ -68,3 +68,5 @@ print(dic.get('humans'))
 
 #우리가 찾고자 하는 key 딕셔너리에 있는지 확인하고 싶을떄
 print('human' in dic)
+
+#dictionary 끝
