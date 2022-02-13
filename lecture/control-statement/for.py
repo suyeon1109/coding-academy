@@ -109,4 +109,4 @@ for num in a:
         result.append(num*3)
     else:
         result.append(num)
-print(result)
+print(result) #순서 똑같음
