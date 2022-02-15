@@ -185,4 +185,3 @@ def vartest(a):
 
 print(vartest(a)) #2
 print(a)          #1
-
