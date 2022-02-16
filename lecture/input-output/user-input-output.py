@@ -29,4 +29,3 @@ print("life", "is", "too", "short")
 #3. 한 줄에 결과값 모두 출력하기
 for i in range(1,101):
     print(i, end = ",") #값 사이사이 이어주는 것
-
