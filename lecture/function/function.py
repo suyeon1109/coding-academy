@@ -185,3 +185,16 @@ def vartest(a):
 
 print(vartest(a)) #2
 print(a)          #1
+
+a = 1
+def vartest2():
+    global a #함수 안에서 외부에 존재하는 변수를 선택
+    a = a + 1
+
+vartest2()
+print(a)
+
+
+a = [1,2,3,4,5,6,7,8,9,10]
+tot = sum(a) #python 자체에서 만들어준 함수도 쓸 수 있음
+print(tot)
