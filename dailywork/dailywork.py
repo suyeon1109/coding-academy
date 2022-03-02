@@ -14,5 +14,5 @@ lines = f.read()
 for i in range(0,):
     data = """Life is too short
     You need Java"""
-    print(data.replace("Java", "python"))
+    f.write(data.replace("Java", "python"))
 f.close()
