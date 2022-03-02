@@ -46,5 +46,3 @@ with open("/Users/kis/Documents/GitHub/coding-academy/lecture/input-output/새�
     data = "\n11번째 줄입니다"
     f.write(data)  
 #32~34번째 줄 코드랑 똑같은거임
-
-
