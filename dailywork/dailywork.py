@@ -10,9 +10,8 @@ f = open("/Users/kis/Documents/GitHub/coding-academy/dailywork/text.txt", "w")
 #     f.write(data)
 # f.close()
 
-lines = f.read()  
-for i in range(0,):
-    data = """Life is too short
-    You need Java"""
-    f.write(data.replace("Java", "python"))
+# lines = f.readline()  
+# for i in range(0,):
+data = """Life is too short\nYou need Python"""
+f.write(data)
 f.close()
