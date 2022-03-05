@@ -11,7 +11,7 @@ f = open("/Users/kis/Documents/GitHub/coding-academy/dailywork/text.txt", "w")
 # f.close()
 
 # lines = f.readline()  
-# for i in range(0,):
+# for i in range(0,): 반복할때만 써
 data = """Life is too short\nYou need Python"""
 f.write(data)
 f.close()
