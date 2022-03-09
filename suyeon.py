@@ -155,3 +155,20 @@ name=["Kim","Lee","Park","Choi","Jeong"]
 for k in name:    #k는 name이라는 list안에 있는 각 element들이 들어감
     print((name.index(k)+1)*k)   #index는 그 element 의 index (몇번째인지)를 나타냄
 
+
+#for
+#for 변수 in range/ for 변수 in 리스트
+for i in range(1,11,2):  #range(a,b,c): a부터 b-1까지의 값을 c의 간격으로 반복해주는 함수
+    print(i*i)                   #여기서는 1 3 5 7 9
+
+for i in range(1,10):
+    for j in range(1,10):    #c가 1일ㄸㅐ는 생략가능
+        print(i*j)
+        print("LOL")
+    print("complete")
+print("Full table")
+print("---------------------------")
+
+name=["Kim","Lee","Park","Choi","Jeong"]
+for k in name:    #k는 name이라는 list안에 있는 각 element들이 들어감
+    print((name.index(k)+1)*k)   #index는 그 element 의 index (몇번째인지)를 나타냄
