@@ -172,3 +172,106 @@ print("---------------------------")
 name=["Kim","Lee","Park","Choi","Jeong"]
 for k in name:    #k는 name이라는 list안에 있는 각 element들이 들어감
     print((name.index(k)+1)*k)   #index는 그 element 의 index (몇번째인지)를 나타냄
+
+"""
+일요일:
+N값을 입력 받아 1부터 N까지의 수 중에서 소수를 구하는 프로그램을 작성하시오.
+
+소수 : 1과 자기 자신만으로 나누어 떨어지는 1보다 큰 양의 정수
+
+월요일:
+아래 결과 프린트하기
+* 
+***
+*****
+*******
+*********
+***********
+*********
+*******
+*****
+***
+*
+
+화요일:
+아래 결과 프린트하기
+0 1 2 3 
+1 2 3 4 
+2 3 4 5 
+3 4 5 6 
+
+수요일:
+월드컵은 4년에 한 번 개최된다. 2002~2050년까지 중 월드컵이 개최되는 연도를 출력하라.
+
+목요일:
+리스트에 5일간의 저가, 고가 정보가 저장돼 있다. 고가와 저가의 차를 변동폭이라고 정의할 때, low, high 두 개의 리스트를 사용해서 5일간의 변동폭을 volatility 리스트에 저장하라.
+
+low_prices  = [100, 200, 400, 800, 1000]
+high_prices = [150, 300, 430, 880, 1000]
+"""
+
+#5
+low_prices  = [100, 200, 400, 800, 1000]
+high_prices = [150, 300, 430, 880, 1000]
+volatility = []
+
+
+for i in range(0,len(low_prices)):  
+    volatility.append(high_prices[i]-low_prices[i])
+print(volatility)
+
+
+#4
+for i in range(2002,2051):
+    if i % 4 == 2:
+        print(i)
+
+
+#3
+a = -1
+for i in range(0,4):
+    a = a+1
+    print(str(a), str(a+1), str(a+2), str(a+3))
+
+
+"""
+약수가 2개
+"""
+
+# N = int(input())
+# for i in range(0,N):
+#     if i % 2 == 0:
+#         print(i)
+
+#2
+a = -1
+
+for i in range(0,13):
+    if i <= 6:
+        a = a+2
+        print("*" * a)
+    else:
+        a = a-2
+        print("*" * a)
+
+
+
+# a = "*"
+# b = 6
+# for i in range(0,5):
+#     if b <=6:
+#         b = b - 1
+#         print(a * b)
+
+
+
+# a = "*"
+# b = 
+
+# for i in range(0,10):
+#     if i <5:
+#         a = a+1
+#         print(str(a) * a)
+#     if i >= 5: #else 라고 써도 됨
+#         b = b - 1
+#         print(str(b) * b)
