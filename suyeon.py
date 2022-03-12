@@ -281,7 +281,7 @@ for i in range(0,13):
 
 해당 맴버에 대한 정보를 프린트한다
 """
-minhyuk = "@go5rae, 1993, 11/3, sub vocal, main visual, 전 인기가요 엠씨 민나현, 케이팝 생태계 교수, full name 'minhyuk edward junior the third', allzzigator"
+minhyuk = "@go5rae, 1993, 11/3, sub vocal, main visual, 전 인기가요 엠씨 민나현, 케이팝 생태계 교수, full name 'minhyuk edward junior the third', alzzigator"
 kihyun = "@yookihhh, 1993, 11/22, main vocal, visual, kigahyunseum, 2022 3/15 solo debut, balad XXXXX rock OOOOO, '더한걸가져와바스타쉽 다 라이브해줄테니 걔'"
 jooheon = "@joohoneywalker, 1994, 10/6, main rapper, lead dancer, handsome, composed 'rush hour' and 'gambler', ggugguggagga, dyoA"
 hyungwon = "@coenffl, 1994, 1/15, lead dancer, sub vocal, main visual, second name '착각할뻔한 형원', myungsilsangbu legend fancam 'how long'"
