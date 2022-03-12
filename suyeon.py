@@ -275,3 +275,30 @@ for i in range(0,13):
 #     if i >= 5: #else 라고 써도 됨
 #         b = b - 1
 #         print(str(b) * b)
+
+"""
+몬스타액스 멤버 리스트에 다 넣은다음 유저로부터 멤버이름를 받는다.
+
+해당 맴버에 대한 정보를 프린트한다
+"""
+minhyuk = "@go5rae, 1993, 11/3, sub vocal, main visual, 전 인기가요 엠씨 민나현, 케이팝 생태계 교수, full name 'minhyuk edward junior the third', allzzigator"
+kihyun = "@yookihhh, 1993, 11/22, main vocal, visual, kigahyunseum, 2022 3/15 solo debut, balad XXXXX rock OOOOO, '더한걸가져와바스타쉽 다 라이브해줄테니 걔'"
+jooheon = "@joohoneywalker, 1994, 10/6, main rapper, lead dancer, handsome, composed 'rush hour' and 'gambler', ggugguggagga, dyoA"
+hyungwon = "@coenffl, 1994, 1/15, lead dancer, sub vocal, main visual, second name '착각할뻔한 형원', myungsilsangbu legend fancam 'how long'"
+shownu = "@shownuayo, Hyunwoo Son, 1992, 6/18, leader, lead vocal, main dancer, 전역 D-405, 호락호락하지 않은 바보, 사람 안가림, 심즈셔누 영상 보유"
+changkyun = "@imnameim, 1996, 1/26, main rapper, visual, no mercy 중간투입, maknae, outsider XXX geurulssa OOO, second name '문특 이단발차기 걔'"
+MonstaX = [minhyuk, kihyun, jooheon, hyungwon, shownu, changkyun]
+N = input()
+
+if N == "minhyuk":
+    print(minhyuk)
+if N == "kihyun":
+    print(kihyun)
+if N == "jooheon":
+    print(jooheon)
+if N == "shownu":
+    print(shownu)
+if N == "hyungwon":
+    print(hyungwon)
+if N == "changkyun":
+    print(changkyun)
