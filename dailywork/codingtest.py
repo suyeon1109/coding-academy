@@ -24,18 +24,48 @@ DOWN
 정답입니다! 7회 만에 맞췄어요.
 """
 
-import random
-n = random.randint(1,100)
+# import random
+# n = random.randint(1,100)
 
-count = 0
+# count = 0
 
-while True:
-    A = int(input())
-    count = count + 1
-    if A == n:
-        print("정답입니다! %d회 만에 맞췄어요." % count)
-        break
-    elif A > n:
-        print("Down")
+# while True:
+#     A = int(input())
+#     count = count + 1
+#     if A == n:
+#         print("정답입니다! %d회 만에 맞췄어요." % count)
+#         break
+#     elif A > n:
+#         print("Down")
+#     else:
+#         print("UP")
+
+"""
+숫자형 배열을 선언한후
+
+for문과 if,else문만 사용해서 제일 큰값,제일 작은값, 중간값을 추출하기
+
+■출력예시:
+
+제일 큰 값은 5 입니다.
+
+제일 작은 값은 1입니다.
+
+중간값은 3입니다.
+"""
+
+A = [1, 2, 3,4, 5]
+A.sort()
+print(A)
+a = 0
+b = 0
+
+for i in A:
+    if i == A[-1]:
+        a = i
+        print("제일 큰 값은 %d 입니다." % a)
+    if i == A[0]:
+        b = i
+        print("제일 작은 값은 %d 입니다." % b)
     else:
-        print("UP")
+        print("중간값은 %d 입니다." % int((a+b)/2))
