@@ -72,3 +72,4 @@ for i in A:
         print("중간값은 %d 입니다." % int((a+b)/2))
     else:
         print("")
+
