@@ -29,16 +29,14 @@ A와 B가 같은 경우에는 '=='를 출력한다.
 단, -10,000 ≤ A, B ≤ 10,000
 """
 
-# import random 
-# A = random.randit(-10000,)   # -10,000 ~ 무한대 까지 범위를 어떻게 설정하는지 기억이 안나서 구글에 쳐봤는데 안나와요!
-# B = random.randit(10000)    #구글에서 보고 따라했는데 AttributeError: module 'random' has no attribute 'randit' 라고 뜸
+A, B = input().split()
 
-# if A > B:
-#     print(">")
-# if A < B:
-#     print("<")
-# if A == B:
-#     print("==")
+if int(A) > int(B):
+    print(">")
+if int(A) < int(B):
+    print("<")
+if int(A) == int(B):
+    print("==")
 
 
 """
@@ -51,12 +49,15 @@ A와 B가 같은 경우에는 '=='를 출력한다.
 첫째 줄에 연도가 주어진다. 연도는 1보다 크거나 같고, 4000보다 작거나 같은 자연수이다.
 첫째 줄에 윤년이면 1, 아니면 0을 출력한다.
 # """
-# B = random.randit() #NameError: name 'random' is not defined
-# for i in range(0,4000):
-#     if i % 4 == 0:
-#         print(1)
-#     else:
-#         print(0)
+
+B = int(input()) 
+
+if B % 4 == 0 and B % 100 != 0:
+    print(1)
+if B % 400 == 0:
+    print(1)
+else:
+    print(0)
 
 
 """
@@ -80,18 +81,11 @@ A와 B가 같은 경우에는 '=='를 출력한다.
 x = int(input())
 y = int(input())
 
-for i in range(-1000,1000):
-    if x ==0:
-        pass
-    if y==0:
-        pass
-    if x > 0 and y >0:
-        print("1사분면")
-    if x > 0 and y < 0:
-        print("4사분면")
-    if x < 0 and y >0:
-        print("2사분면")
-    if x < 0 and y < 0:
-        print("3사분면")
-
-#~사분면 하나씩만 나오게 하려면 어떻게 하는지?!
+if x > 0 and y >0:
+    print("1사분면")
+if x > 0 and y < 0:
+    print("4사분면")
+if x < 0 and y >0:
+    print("2사분면")
+if x < 0 and y < 0:
+    print("3사분면")
