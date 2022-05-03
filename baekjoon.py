@@ -111,3 +111,82 @@ x,y = y,x
 print("바꾼후---------")
 print("첫번쨰 수:", x)
 print("두번쨰 수:", y)
+
+
+#발열체크
+Name = input("이름 입력: ")
+Temperature = float(input("체온 측정: "))
+
+print(Name + "학생")
+if Temperature >= 37.5:
+    print("ㅠㅠ강의실 입장 안되요!!")
+else:
+    print("야호!! 강의실 입장가능")
+
+
+
+
+#2
+ans = input("엘리베이터를 이용 하는가요?")
+if ans == "yes":
+    a = int(input("층수입력: "))
+    print(str(a) + "층에 도착 하였습니다. \n문을 열고 내립니다.")
+else:
+    print("계단으로 올라가기!! \n에고 힘들다~~")
+
+
+
+
+#3
+import random
+dice = ["홀","짝"]
+com = random.choice(dice)
+print("컴퓨터는",com,"입니다")
+player = input("플레이어 홀/짝 맞춰보세요? ")
+
+if com == player:
+    print("컴퓨터:", com,",", "player:", player, "=> 플레이어 승리")
+else:
+    print("컴퓨터:", com,",", "player:", player, "=> 컴퓨터 승리")
+
+
+age = int(input("나이: "))
+height = int(input("키: "))
+
+if age >= 8 and height >= 100:
+    print("놀이기구를 탈 수 있습니다.")
+else:
+    print("더 크면 오세요.")
+
+
+dir = input("동,서,남,북 중 하나를 입력: ")
+if dir == "동":
+    print("춘천")
+elif dir == "서":
+    print("인천")
+elif dir == "남":
+    print("제주")
+elif dir == "북":
+    print("평양")
+else:
+    print("방향이 잘못됨")
+
+
+
+num = int(input("정수입력: "))
+
+if num % 5 ==0:
+    print("5의 배수")
+else:
+    print("5의 배수 아님")
+
+
+seoul = 2500/1
+mail = 4200/1.8
+
+if seoul > mail:
+    print("매일 우유가 저렴")
+elif seoul < mail:
+    print("서울 우유가 저렴")
+else:
+    print("가격이 같음")
